@@ -1,0 +1,61 @@
+.img {
+    padding: 30px;
+    margin: 0;
+}
+}
+#h1{
+    color: purple;
+    padding-top: 40px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.bot{
+    margin: 20px;
+    border: 1px solid purple;
+    width: 350px;
+    border-radius: 50px;
+    height: 50px;
+    padding-top: 13px;
+    padding-left: 20px;
+}
+.but{
+    background-color: purple;
+    border: 1px solid purple;
+    color: white;
+    border-radius: 30px;
+    height: 33px;
+    width: 100px;
+}
+input{
+    border-style: hidden;
+}
+.p1{
+    margin: 30px;
+    font-size: 15px;
+}
+#subhed{
+    color: grey;
+    margin: 30px;
+}
+.p2{
+    border: 1px solid rebeccapurple;
+    height: 100px;
+    width: 300px;
+    background-color: rebeccapurple;
+    color: white;
+    margin: 10px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.i{
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 60px;
+    background-color: white;
+    color: rebeccapurple;
+    margin-left: 125px;
+    width: 40px;
+    font-size: 20px;
+}
+.foot{
+}

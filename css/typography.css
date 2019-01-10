@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #8E44AD;
     line-height: 60px;
     letter-spacing: 2px;
+    margin: 20px;
 }
 .font-weight-bold {
     font-weight: bold;
