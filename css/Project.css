@@ -1,0 +1,67 @@
+.short-intro{
+    font-size: 16px;
+    margin-left: 250px;
+}
+.display-3{
+    margin-left: 250px;
+}
+.humburger{
+    margin-right: 250px;
+}
+.button{
+    margin-left: 250px;
+    border: 1px solid purple;
+    width: 350px;
+    border-radius: 50px;
+    height: 40px;
+    padding: 10px;
+}
+.button2{
+    border: 1px solid purple;
+    border-radius: 30px;
+    color: white;
+    background-color: purple;
+    height: 40px;
+    width: 100px;
+}
+input{
+    border-style: hidden;
+}
+#caption{
+    color: grey;
+    margin-left: 270px;
+}
+.box, .box2, .box3, .box4{
+    border: 1px solid purple;
+    background-color: rebeccapurple;
+    padding-top: 60px;
+    width: 400px;
+    height: 150px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.box{
+    margin-left: 250px;
+}
+.box2{
+    background-color: tomato;
+    border-color: tomato;
+}
+.box3{
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+}
+.box4{
+    background-color: goldenrod;
+    border-color: goldenrod;
+    margin-right: 250px;
+}
+footer{
+    display: -webkit-flex;
+    display: -moz-flex;
+}
