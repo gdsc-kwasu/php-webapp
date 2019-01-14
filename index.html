@@ -4,63 +4,92 @@
     <meta charset="UTF-8">
     <title>Developer Students Club, KWASU Chapter</title>
     <link rel="icon" href="images/logo.png">
-    <!-- normalize the page before anything -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <!-- import local defined fonts -->
-    <link rel="stylesheet" href="css/font.css">
-    <!-- defined typography cuz it matters -->
-    <link rel="stylesheet" href="css/typography.css">
-    <!-- Custom styling -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- import font awesome for icons -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
           integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/Project.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<!-- Let the magic begin -->
-<!-- header begins -->
 <header>
-    <img src="images/logo.png" alt="Logo" class="logo-1x">
-    <div class="d-inline float-right">
-        <a href="#" class="header--menu d-inline-block">
-            <i class="fas fa-bars"></i>
+    <nav class="navbar navbar-expand-md bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="logo" width="45" height="45">
         </a>
-    </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </header>
-<!-- header ends -->
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-md-6">
+        </div>
+        <div class="col-12 col-md-6 border border-purple py-5 px-2">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quo, voluptate! Ad atque cumque cupiditate dicta
+                dignissimos dolores, est facere illum in incidunt ipsa ipsum iure magnam maiores, necessitatibus neque
+                praesentium quibusdam ratione recusandae repudiandae rerum
+                totam vitae. Animi aut corporis eos esse fugit iste, mollitia necessitatibus nostrum possimus saepe?
+                <span class="border border-primary p-3 d-block small">Ubi est emeritis equiso?</span>
+            </p>
+            <div class="row">
+                <div class="col-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias asperiores aspernatur beatae
+                        cumque delectus dicta dolore dolores doloribus error est, eum exercitationem ipsam ipsum,
+                        laboriosam perferendis quasi quisquam, tempora voluptatem! Aspernatur consectetur consequatur
+                        dicta fuga ipsum nesciunt sapiente sed vero?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- call to action section -->
-<section>
-    <h1 class="display-3">Developer Student Club</h1>
-    <div class="humburger">
+<section style="padding: 10px 20px;">
+    <div class="col-6">
+        <h1 class="display-3" style="margin-left: 0">Developer Student Club</h1>
+        <p class="short-intro">
+            Vae, stella! Albus, placidus humani generiss saepe desiax scutum goiuygjhlh
+            Domina persuaderes, tanquam fortis caesium. Ferox plasmators ducunt ad mensa.
+            Vae, stella! Albus, placidus humanigeneriss saepe desiderium de fidelis, velox ionicis tormento.
+            Nunquam dignus historia. Rector audax scutum est.
+            Domina persuaderes, tanquam fortis cducunt ad mensa.
+        </p>
+        <div class="button">
+            <input type="text" placeholder="Email Address" style="outline: none; padding: 5px 0 5px 8px; width: 70%">
+            <button class="button2">Join Us</button>
+        </div>
+        <p id="caption">We promise we won't spam you</p>
+    </div>
+    <div class="col-6">
         <img src="images/coder.png" alt="coder" align="right">
     </div>
-    <p class="short-intro">
-        Vae, stella! Albus, placidus humani generiss saepe desiax scutum goiuygjhlh<br>
-        Domina persuaderes, tanquam fortis caesium. Ferox plasmators ducunt ad <br> mensa.
-        Vae, stella! Albus, placidus humanigeneriss saepe desiderium de fidelis, <br> velox ionicis tormento.
-        Nunquam dignus historia. Rector audax scutum est. <br>
-        Domina persuaderes, tanquam fortis cducunt ad mensa.
-        Vae, stella! Albus, <br>placidus humani generiss saepe desiderium de fidelis, velox ionicis tormento. <br>
-        Nunquam dignus historia. Rector audax scutum est.
-        Domina persuaderes, <br>tis caesium. Ferox plasmators ducunt ad mensa.
-    </p>
-    <div class="button">
-        <input type="text" placeholder="Email Address">
-        <button class="button2">Join Us</button>
-    </div>
-    <p id="caption">We promise we won't spam you</p>
 </section>
 <!-- call to section ends -->
 
 <!-- footer starts -->
 <footer>
     <div class="box"><i class="fas fa-info-circle"></i><br><a href="#">ABOUT US</a></div>
-    <div class="box2"><a href="#">OUR MEMBER</a></div>
-    <div class="box3"><a href="#">TRACK</a></div>
+    <div class="box2"><i class="fas fa-archway"></i><a href="#">OUR MEMBER</a></div>
+    <div class="box3"><i class="fab fa-facebook-square"></i><a href="#">TRACK</a></div>
     <div class="box4"><i class="fas fa-usd-circle"></i><a href="#">SUPPORT</a></div>
 </footer>
 <!-- footer ends -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

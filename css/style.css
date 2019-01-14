@@ -1,50 +1,14 @@
-header {
-    width: 1200px;
-    padding: 5px 1px 0 1px;
-    border-bottom: 1px solid rgba(142, 68, 173, 0.12);
-    margin: 0 auto 50px auto;
+body {
+    font-family: Lato, sans-serif;
 }
-.logo-1x {
-    width: 50px;
-    height: 50px;
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
 }
-.header--menu {
-    font-size: 1.4em;
-    color: #8E44AD;
-    margin-top: 15px;
+
+.border-purple {
+    border-color: #8E44AD !important;
 }
-/*
-* Floating of elements
-*/
-.float-right {
-    float: right;
-}
-.float-left {
-    float: left;
-}
-.clearfix {
-    display: block;
-}
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-/*
-* Layout and display styles
-*/
-.d-block {
-    display: block;
-}
-.d-inline {
-    display: inline;
-}
-.d-inline-block {
-    display: inline-block;
-}
-.d-flex {
-    display: flex;
+header .nav-item {
+    margin: 0 20px;
 }
