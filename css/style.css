@@ -4,10 +4,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Montserrat, sans-serif;
-}
-
-.border-purple {
-    border-color: #8E44AD !important;
+    color: rebeccapurple;
+    margin-top: 50px;
 }
 header .nav-item {
     margin: 0 20px;
