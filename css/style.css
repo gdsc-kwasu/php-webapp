@@ -1,11 +1,10 @@
 body {
     font-family: Lato, sans-serif;
+    color: #8e44ad;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Montserrat, sans-serif;
-    color: rebeccapurple;
-    margin-top: 50px;
 }
 header .nav-item {
     margin: 0 20px;
