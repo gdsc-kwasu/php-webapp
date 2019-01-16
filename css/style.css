@@ -7,20 +7,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: Montserrat, sans-serif;
 }
-#caption{
-    color: #808080;
-}
-.container{
-    margin-top: 100px;
-}
-.short-intro{
-    font-size: medium;
-}
-input{
-    background-color: #f8f8ff;
-    border-style: hidden;
-    color: #8e44ad;
-}
 
 .border-outline{
     border: 1px solid #8e44ad;
@@ -37,7 +23,7 @@ input{
     padding: 5px 15px 5px 15px;
 }
 .nav-link{
-    color: #808080;
+    color: #95A5A6;
 }
 @media(max-width:768px) {
     .border-outline{width: 75%;}
