@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 .border-outline{
     border: 1px solid #8e44ad;
     border-radius: 50px;
-    width: 58%;
+    width: 62%;
     padding: 8px 16px;
 }
 .button{
@@ -28,4 +28,3 @@ h1, h2, h3, h4, h5, h6 {
 @media(max-width:768px) {
     .border-outline{width: 75%;}
 }
-p{color:white;}
