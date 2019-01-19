@@ -8,6 +8,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Montserrat, sans-serif;
 }
 
+/* changed the acitve nav link */
+.navbar-nav .active {
+    color:  #8e44ad !important;
+}
+
 .border-outline{
     border: 1px solid #8e44ad;
     border-radius: 50px;
