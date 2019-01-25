@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5, h6 {
 .container{
 	margin-top: 100px
 }
+.h1{
+    font-weight: bold;
+    font-size: 45px;
+}
 .border-outline{
     border: 1px solid #8e44ad;
     border-radius: 50px;
@@ -49,4 +53,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media(max-width:768px) {
     .border-outline{width: 75%;}
+    .h1{font-size: 35px; font-weight: bold}
 }
