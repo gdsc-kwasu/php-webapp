@@ -13,6 +13,8 @@ h1, h2, h3, h4, h5, h6 {
     color:  #8e44ad !important;
 }
 .user-input{
+    color: #8e44ad;
+    outline: none;
 	margin: 0;
 	padding: 7px;
 	border-style: none;
@@ -20,10 +22,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .section{
     background-color: #f8f8ff;
+    padding: 80px 0;
 }
-.container{
-	margin-top: 100px
-}
+
 .h1{
     font-weight: bold;
     font-size: 45px;
@@ -47,13 +48,26 @@ h1, h2, h3, h4, h5, h6 {
     float: right;
     padding: 5px 15px 5px 15px;
 }
+.short-intro {
+    text-align: justify;
+}
 .nav-link{
     color: #95A5A6;
     margin: 0 20px;
 }
 @media(max-width:768px) {
-    .border-outline{width: 100%;}
-    .h1{font-size: 35px; font-weight: bolder}
-    .coder{height: 280px; width: 90%}
-    .short-intro{text-align: center; margin-top: 20px}
+    .border-outline {
+        width: 100%;
+    }
+    .h1 {
+        font-size: 35px;
+        font-weight: bolder
+    }
+    .coder {
+        height: 280px;
+        width: 90%
+    }
+    .short-intro {
+
+    }
 }
