@@ -1,61 +1,147 @@
 body {
     font-family: Lato, sans-serif;
-    color: #8e44ad;
+    color: #353232;
     background-color: #fff;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: Montserrat, sans-serif;
-}
 
 /* changed the acitve nav link */
+
 .navbar-nav .active {
-    color:  #8e44ad !important;
-}
-.user-input{
-    color: #8e44ad;
-    outline: none;
-	margin: 0;
-	padding: 7px;
-	border-style: none;
-	background-color: transparent;
-}
-.section{
-    background-color: #f8f8ff;
-    padding: 80px 0;
+    color: #353232 !important;
 }
 
-.h1{
+.nav-header {
+    background-color: black;
+}
+
+.bg-intro {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("../images/emma-matthews-973230-unsplash.jpg");
+    background-size: cover;
+    padding: 150px 200px 100px 200px;
+    color: white;
+}
+
+.intros .head {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.intros .sub {
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 100;
+}
+
+.about-head,
+.lead-head,
+.partners-head {
+    font-size: 28px;
+    line-height: 5px;
+    padding-top: 15px;
+}
+
+.about-sub,
+.lead-sub,
+.partners-sub {
+    font-size: 14px;
+}
+
+.section {
+    background-color: #E5E5E5;
+}
+
+.lead-img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #E5E5E5;
+    border-radius: 50%;
+}
+
+.lead-radius {
+    border-radius: 15px;
+}
+
+.lead-name {
     font-weight: bold;
-    font-size: 45px;
 }
-.border-outline{
-    border: 1px solid #8e44ad;
-    border-radius: 50px;
-    width: 62%;
-    padding-left: 15px;
-    padding-right: 5px;
-    padding-bottom: 9px;
-    padding-top: 8px;
+
+.lead-post {
+    font-size: 14px;
+    line-height: 0;
 }
-.button{
-    margin: auto;
-    background-color: #8e44ad;
-    border-color: #8e44ed;
-    border-radius: 60px;
-    color: #fff;
-    font-weight: bold;
-    float: right;
-    padding: 5px 15px 5px 15px;
+
+.partners-head {
+    color: #181616;
 }
-.short-intro {
-    text-align: justify;
+
+.partners-img {
+    width: 100%;
+    height: 150px;
 }
-.nav-link{
-    color: #95A5A6;
-    margin: 0 20px;
+
+.tracks {
+    background-color: #ffffff;
 }
-@media(max-width:768px) {
+
+.tracks-bg {
+    background-color: #4ed3ad;
+}
+
+.tracks-bg .head {
+    color: rgb(34, 32, 32);
+    font-size: 26px;
+}
+
+.tracks-bg .sub {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 0;
+}
+
+.quote {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.subscribe {
+    background-color: #E5E5E5;
+}
+
+.subscribe .row .desc p {
+    font-weight: 600;
+    font-size: 34px;
+    color: #0084F4;
+    text-align: right;
+    line-height: 30px;
+}
+
+.subscribe .row .desc .right {
+    font-size: 15px;
+    line-height: 0px;
+    font-weight: lighter;
+    color: #000000;
+    text-align: right;
+}
+
+.link {
+    color: #fdcb6e;
+}
+
+.copy {
+    font-size: 15px;
+    line-height: 0px;
+    color: #fdcb6e;
+    font-weight: 200;
+}
+
+.made {
+    font-size: 11px;
+    color: #fdcb6e;
+    line-height: 0;
+}
+
+@media screen and (max-width: 768px) {
     .border-outline {
         width: 100%;
     }
@@ -67,7 +153,78 @@ h1, h2, h3, h4, h5, h6 {
         height: 280px;
         width: 90%
     }
-    .short-intro {
-
+    .logo {
+        height: 30px;
+        width: 100px;
+    }
+    .bg-intro {
+        padding: 80px 40px 70px 40px;
+    }
+    .intros .head {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .intros .sub {
+        font-size: 12px;
+        margin-top: 10px;
+        line-height: 15px;
+        font-weight: 100;
+    }
+    .about-head,
+    .lead-head,
+    .partners-head {
+        font-size: 20px;
+        line-height: 10px;
+        padding-top: 15px;
+    }
+    .lead-head {
+        line-height: 0px;
+    }
+    .about-sub,
+    .lead-sub,
+    .partners-sub {
+        font-size: 12px;
+    }
+    .lead-sub {
+        line-height: 0px;
+    }
+    .lead-img {
+        height: 100px;
+        width: 100px;
+    }
+    .lead-name {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .lead-post {
+        font-size: 12px;
+        line-height: 0px;
+    }
+    .quote {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .partners-img {
+        width: 100%;
+        height: 100px;
+    }
+    .tracks-bg .head {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .tracks-bg .sub {
+        font-size: 12px;
+        line-height: 0;
+    }
+    .subscribe .row .desc p {
+        font-weight: 600;
+        font-size: 25px;
+        text-align: center;
+        line-height: 20px;
+    }
+    .subscribe .row .desc .right {
+        font-size: 12px;
+        line-height: 0px;
+        text-align: center;
     }
 }
