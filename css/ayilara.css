@@ -1,12 +1,15 @@
-.img_1, .img_2, .img_3{
+.img_1{
     height: 300px;
     width: 600px;
     padding-left: 25px;
 }
-.head_1, .head_2, .head_3{
-    font-size: 30px;
+.sub_img{
+    margin-left: 140px;
+}
+.head_1{
+    font-size: 35px;
     font-family: monospace;
-    font-weight: bold
+    font-weight: bold;
 }
 .message_1, .message_2, .message_3{
     text-align: center;
@@ -21,7 +24,8 @@
 #myBtn{
     margin-left: 20px;
 }
-.read_more{
-    margin-top: 20px;
-    margin-left: 20px;
+.sub_head{
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bold;
 }
