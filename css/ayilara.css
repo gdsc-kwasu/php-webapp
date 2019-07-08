@@ -1,0 +1,31 @@
+.img_1{
+    height: 300px;
+    width: 600px;
+    padding-left: 25px;
+}
+.sub_img{
+    margin-left: 140px;
+}
+.head_1{
+    font-size: 35px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.message_1, .message_2, .message_3{
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    word-spacing: 2px;
+}
+#more{
+    display: none;
+}
+#myBtn{
+    margin-left: 20px;
+}
+.sub_head{
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bold;
+}
